@@ -1,0 +1,45 @@
+<template name="home.ng.html">
+    <div id="home">  
+        <!-- Build the Header -->
+        <div id="header">
+            <div class="logo"></div>
+            <div style="display: none;" class="profilecontent">{{> _userprofile}}</div>
+            <div class="authUser" profile-icon>
+                <img ng-src="[[ homepage.user.services[homepage.service].picture ]]" alt="[[ homepage.service ]]" class="profileicon" />
+            </div>
+            <div class="spaces">
+                <div class="space-row">
+                    <span class="space-col" ng-class="{'active': homepage.selectedSpace == 1}" ng-click="updateselectedSpace(1)">1</span>
+                    <span class="space-col" ng-class="{'active': homepage.selectedSpace == 2}" ng-click="updateselectedSpace(2)">2</span>
+                </div>
+                <div class="space-row">
+                    <span class="space-col" ng-class="{'active': homepage.selectedSpace == 3}" ng-click="updateselectedSpace(3)">3</span>
+                    <span class="space-col" ng-class="{'active': homepage.selectedSpace == 4}" ng-click="updateselectedSpace(4)">4</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Build the different Application -->  
+        <div  ews class="application_base" style='[[ "background: url(/img/space" +  (homepage.selectedSpace - 1) + ".jpg) no-repeat scroll 0% 0% / cover transparent;" ]]'>
+            <div class="taskbar">
+                <div class="menuitem" data-menu-lang="*" data-menu-type="start" data-menu-name="HOME"></div>
+            </div>
+
+            <!--Build the desktop Application links -->
+            <div icon-move="[[ getAppDetail(installApp.app_id).appName ]]" 
+                 ng-dblclick="createApp(getAppDetail(installApp.app_id))"
+                 class="simone-desktop-icon" 
+                 data-width="[[ getAppDetail(installApp.app_id).width ]]"
+                 data-height="[[ getAppDetail(installApp.app_id).height ]]"
+                 id="simone-desktop-[[ getAppDetail(installApp.app_id).shortName.toLowerCase() ]]" 
+                 ng-repeat="installApp in homepage.installApps">
+                <div class="simone-desktop-image" data-appname="[[ getAppDetail(installApp.app_id).appName ]]">
+                    <img style="width: 40px; height: 40px;" 
+                         ng-src="/img/apps/[[ getAppDetail(installApp.app_id).shortName.toLowerCase() ]]_large.png" 
+                         alt="[[ getAppDetail(installApp.app_id).appName ]]"/>
+                </div>
+                <div class="simone-desktop-title">[[ getAppDetail(installApp.app_id).shortName ]]</div>
+            </div>
+        </div>
+    </div>
+</template>

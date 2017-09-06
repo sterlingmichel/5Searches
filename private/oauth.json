@@ -1,0 +1,37 @@
+{
+    "google": {
+        "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+        "client_secret": "-nJaTTx2VwIybs8LpoRtb3uF",
+        "token_uri": "https://accounts.google.com/o/oauth2/token",
+        "client_email": "726838622721@developer.gserviceaccount.com",
+        "redirect_uris": [
+            "http://localhost:3000/_oauth/google"
+        ],
+        "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/726838622721@developer.gserviceaccount.com",
+        "client_id": "726838622721.apps.googleusercontent.com",
+        "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+        "javascript_origins": [
+            "http://localhost:3000/"
+        ]
+    },
+    "facebook": {
+        "appId": "223598734338295",
+        "secret": "d21acc3ad19569f78e86edd173ea6aea"
+    },
+    "twitter": {
+        "appId": "VXqP7wDWj3NlEyxa4DcDkA",
+        "secret": "M9ffWGE76j9NSRcnhvFrtQaVXdULMb18t8ZVb8g7IM8"
+    },
+    "linkedin": {
+        "appId": "57emrid0ozw9",
+        "secret": "7B0lhB76d0g2oqtw"
+    },
+    "yahoo": {
+        "appId": "FDfGgvjV34HxhLLCRGjqGdQqWIoJEaqXyUqR8RkxX5kHOK4x.flcxijGuvu66.gl",
+        "secret": "d8b9a5564d326d205184f554856b2583b9e4616"
+    },
+    "vimeo": {
+        "appId": "VXqP7wDWj3NlEyxa4DcDkA",
+        "secret": "880df6f995200b47"
+    }
+}

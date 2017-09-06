@@ -1,0 +1,64 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/local/bin/node',
+1 verbose cli   '/opt/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'npm-container' ]
+2 info using npm@1.3.23
+3 info using node@v0.10.24
+4 verbose cache add [ 'npm-container', null ]
+5 verbose cache add name=undefined spec="npm-container" args=["npm-container",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'npm-container',
+6 verbose parsed url   path: 'npm-container',
+6 verbose parsed url   href: 'npm-container' }
+7 silly lockFile 8fb7bed2-npm-container npm-container
+8 verbose lock npm-container /Users/smichel/.npm/8fb7bed2-npm-container.lock
+9 silly lockFile 8fb7bed2-npm-container npm-container
+10 silly lockFile 8fb7bed2-npm-container npm-container
+11 verbose addNamed [ 'npm-container', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 1f1f6f4f-npm-container npm-container@
+14 verbose lock npm-container@ /Users/smichel/.npm/1f1f6f4f-npm-container.lock
+15 silly addNameRange { name: 'npm-container', range: '*', hasData: false }
+16 verbose url raw npm-container
+17 verbose url resolving [ 'https://registry.npmjs.org/', './npm-container' ]
+18 verbose url resolved https://registry.npmjs.org/npm-container
+19 info trying registry request attempt 1 at 06:44:14
+20 http GET https://registry.npmjs.org/npm-container
+21 http 404 https://registry.npmjs.org/npm-container
+22 silly registry.get cb [ 404,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=0',
+22 silly registry.get     'content-length': '51',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Fri, 15 May 2015 10:44:09 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-dfw1833-DFW',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1431686649.049118,VS0,VE66' } ]
+23 silly lockFile 1f1f6f4f-npm-container npm-container@
+24 silly lockFile 1f1f6f4f-npm-container npm-container@
+25 error 404 'npm-container' is not in the npm registry.
+25 error 404 You should bug the author to publish it
+25 error 404
+25 error 404 Note that you can also install from a
+25 error 404 tarball, folder, or http url, or git url.
+26 error System Darwin 14.3.0
+27 error command "/opt/local/bin/node" "/opt/local/bin/npm" "install" "npm-container"
+28 error cwd /Users/smichel/5searches/beta2
+29 error node -v v0.10.24
+30 error npm -v 1.3.23
+31 error code E404
+32 verbose exit [ 1, true ]

@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2015, 12:00:36 AM
+    Author     : smichel
+*/
+
+.simone-window-content hr {
+    margin: 15px 0;
+}
+.simone-window-content label {
+    display: inline-block;
+    margin-bottom: 0.4em;
+}
+.simone-window-content label.theme-switch-notice:empty {
+    display: none;
+}
+.simone-window-content label.code-main-label {
+    margin: 0.4em 0 1em;
+}
+.simone-window-content .description {
+    margin-bottom: 0.6em;
+    padding-left: 0px;
+    position: relative;
+}
+.simone-window-content .description code[class*="language"] {
+    font-size: 0.75em;
+}
+.simone-window-content .description::before {
+    content: "";
+    display: block;
+    font-size: 1em;
+    left: 0;
+    position: absolute;
+}
+.simone-window-content .log {
+    height: 100px;
+    margin-bottom: 0.6em;
+    margin-top: 0.6em;
+    overflow-y: auto;
+    position: relative;
+}
+.simone-window-content .log:not(:empty) {
+    border-top: 1px solid #ccc;
+}
+.simone-window-content code[class*="language-"], .simone-window-content pre[class*="language-"] {
+    -moz-tab-size: 4;
+    line-height: 1.2;
+}
+.simone-taskbar.simone-taskbar-horizontal .simone-taskbar-window-buttons-container > .ui-button {
+   border: 1px #003bb3 solid; 
+}

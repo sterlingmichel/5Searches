@@ -1,0 +1,68 @@
+
+.edesktop-window-titlebar-buttons button {
+    height: 22px;
+    width: 24px;
+}
+.edesktop-taskbar-container:hover {
+  background: #ffc;
+}
+.edesktop-taskbar-container {
+    cursor: default;
+    margin-right: 2px;
+    max-width: 250px;
+    border: 1px #ccc solid;
+    background: #ddd;
+	
+}
+.edesktop-taskbar-icon img {
+    vertical-align: middle;
+    border: 1px #000 solid;
+    display: table-cell;
+    margin-top: 4px;
+}
+.edesktop-taskbar-container, .edesktop-taskbar-icon, .edesktop-taskbar-label {
+    float: left;
+}
+.edesktop-taskbar-label {
+    padding-left: 8px;
+    padding-right: 4px;
+    padding-top: 5px;
+}
+.edesktop-icon-container {
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.edesktop-icon-shadow {
+    border-radius: 8px;
+    height: 100%;
+    padding: 4px;
+    width: 100%;
+}
+.edesktop-icon {
+    border: 0px #ccc solid;
+    cursor: default;
+    height: 60px;
+    padding: 4px;
+    margin: 5px;
+    width: 100px;
+}
+.edesktop-icon-image {
+    margin-left: 0;
+    width: 100%;
+}
+.edesktop-icon-label {
+    border: medium none;
+    color: #FFFFFF;
+    margin-left: -10%;
+    margin-top: 5px;
+    text-align: center;
+    width: 120%;
+    font-size: 7pt;
+    background: none;
+}
+.edesktop-icon-selected {
+    border: thin solid #FFFFFF;
+}
+
+

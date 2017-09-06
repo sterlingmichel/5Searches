@@ -1,0 +1,28 @@
+<template name="_userprofile">
+    <table border="0" cellpadding="1" cellspacing="1"  class="user_detail">
+        <thead>
+            <tr>
+                <td rowspan="3" style="text-align: center">
+                    <img ng-src="[[ homepage.user.services[homepage.service].picture ]]" alt="[[ homepage.user.services[homepage.service].name ]]" class="profileimage"/>
+                </td>
+                <th>[[ homepage.user.services[homepage.service].name ]]</th>
+            </tr>
+            <tr>
+                <td style="text-align: center">[[ homepage.user.services[homepage.service].email ]]</td>
+            </tr>
+            <tr>
+                <td style="text-align: center">
+                    <span data-appname="application_manager" class="specialButton" ng-click="createApp(appManager)">Connected AS:[[ homepage.service | capitalize ]]</span>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th colspan="2" class="user_detail_bottom">
+                    <span class="myButton addaccount" ng-click="logout()">Add Account</span>
+                    <span class="myButton logout" ng-click="logout()">Log Out</span>
+                </th>
+            </tr>
+        </tbody>
+    </table>
+</template>
