@@ -1,22 +1,18 @@
-<template name="electronic_websearch.ng.html">
-    <div class="ews-searchbox">
-        <input type="text" placeholder="click here to search" value="" name="searchval">
-        <button>Search</button>
-    </div>
-    <div class="myews" accordion>
-        <ol>
-            <li class="slide" ng-repeat="(sitename, availablesite) in homepage.sites.availablesites">
-                <h2> <span>[[ sitename ]]</span></h2>
-                <div class="datacontent">
-                     [[ sitename ]]
-                </div>
-            </li>
-        </ol>
-    </div>
+<div class="ews-searchbox">
+    <input type="text" placeholder="click here to search" value="" name="searchval">
+    <button>Search</button>
+</div>
+<div class="myews" accordion>
+    <ol>
+        <li class="slide" ng-repeat="(sitename, availablesite) in homepage.sites.availablesites">
+            <h2> <span>[[ sitename ]]</span></h2>
+            <div class="datacontent">
+                [[ sitename ]]
+            </div>
+        </li>
+    </ol>
+</div>
 
-    <div class="docmenu">
-            root menu
-    </div>
-
-
-</template>
+<div class="docmenu">
+    root menu
+</div>

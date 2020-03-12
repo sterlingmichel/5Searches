@@ -71,6 +71,7 @@ Package.onUse(function (api) {
         'script/i18n/simone.fr.min.js',
         'script/i18n/simone.es.min.js',
         'script/browser.js',
+        'script/jquery.tooltipster.js',
         'script/center.js',
         'script/coverflow.js',
         'script/jqDock.js',

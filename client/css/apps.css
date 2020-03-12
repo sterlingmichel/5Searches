@@ -279,6 +279,12 @@ div#header div.spaces div.space-row span.space-col.active {
     border-radius: 50%;
 }
 
+.managertask {
+    border: 1px #000 solid;
+    display: inline-block;
+}
+
+
 .copyright {
     border: 0px #000 solid;
     text-align: center;

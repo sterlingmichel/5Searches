@@ -2,10 +2,8 @@
     <!-- Build the Header -->
     <div id="header">
         <div class="logo"></div>
-        <div style="display: none;" class="profilecontent">{{> _userprofile}}</div>
         <div class="authUser" profile-icon>
-            <img ng-src="[[ homepage.user.services[homepage.service].picture ]]" alt="[[ homepage.service ]]"
-                class="profileicon" />
+            <img ng-src="[[ homepage.user.services[homepage.service].picture ]]" alt="[[ homepage.service ]]" class="profileicon" />
         </div>
         <div class="spaces">
             <div class="space-row">
@@ -25,7 +23,7 @@
 
     <!-- Build the different Application -->
     <div ews class="application_base"
-        style='[[ "background: url(/img/space" +  (homepage.selectedSpace - 1) + ".jpg) no-repeat scroll 0% 0% / cover transparent;" ]]'>
+        style="[[ 'background: url(/img/space' +  (homepage.selectedSpace - 1) + '.jpg) no-repeat scroll 0% 0% / cover transparent;' ]]">
         <div class="taskbar">
             <div class="menuitem" data-menu-lang="*" data-menu-type="start" data-menu-name="HOME"></div>
         </div>

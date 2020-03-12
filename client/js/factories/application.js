@@ -1,6 +1,6 @@
 angular.module('fiveSearches')
-        .factory('application', ['$log', '$filter', '$meteor', '$sessionStorage', '$compile',
-          function ($log, $filter, $meteor, $sessionStorage, $compile) {
+        .factory('application', ['$log', '$filter', '$meteor', '$sessionStorage', '$compile', '$templateFactory',
+          function ($log, $filter, $meteor, $sessionStorage, $compile, $templateFactory) {
 
             var createMoveIcon = function (scope, appobj) {
 
@@ -27,7 +27,8 @@ angular.module('fiveSearches')
               desc.addClass('description');
               // pull the html
               //.warn(cleanapp + '.ng.html'); //application_manager.ng
-              desc.html(UiRouter.template(cleanapp + '.ng.html'));
+              //desc.html( UiRouter.template( 'client/html/application/' + cleanapp + '.ng.html' ) );
+              desc.html($templateFactory.fromUrl('client/html/application/' + cleanapp + '.ng.html'));
               //$win.html(UiRouter.template(cleanapp + '.ng.html'));
               //compile the new content
               $compile(angular.element($win))(scope);
