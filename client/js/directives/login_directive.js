@@ -56,4 +56,3 @@ angular.module('fiveSearches').directive('login', ['$location', '$meteor', '$log
       }
     };
   }]);
-

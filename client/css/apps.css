@@ -42,12 +42,12 @@ input[type="text"]:focus {
 /* Main Div */
 div[ng-app] {
     border: 0px red solid;
-    position:absolute; 
-    background:#fff; 
+    position:absolute;
+    background:#fff;
     height:100%;
     width:100%;
-    overflow: hidden; 
-    margin:0; 
+    overflow: hidden;
+    margin:0;
     padding:0;
 }
 
@@ -57,8 +57,8 @@ main, ng-template {
 }
 
 #home {
-    border-top: 2px #0077b3 solid; 
-    border-bottom: 0px #0077b3 solid; 
+    border-top: 2px #0077b3 solid;
+    border-bottom: 0px #0077b3 solid;
     margin-bottom: 114px;
 }
 
@@ -215,14 +215,14 @@ div#header div.spaces div.space-row span.space-col.active {
 /* login page */
 .loginTab {
     border: 1px #000 solid;
-    position:absolute; 
-    background:#fff; 
+    position:absolute;
+    background:#fff;
     height:1000px;
     width:100%;
-    overflow-y: scroll; 
-    margin:0; 
+    overflow-y: scroll;
+    margin:0;
     padding:0;
-    background: url("/img/chris_anderson_pic2.jpg") no-repeat scroll 0% 0% / cover  transparent; 
+    background: url("/img/chris_anderson_pic2.jpg") no-repeat scroll 0% 0% / cover  transparent;
     display: block;
     -webkit-transition: fadein 5s;
     -moz-transition: fadein 5s;
@@ -252,13 +252,13 @@ div#header div.spaces div.space-row span.space-col.active {
 .centerImage {
     width: 120px;
 }
-.roundrr_center {
-    border: 0px #000 solid;
+/* .roundrr_center {
+    border: 1px #000 solid;
     width: 120px;
     position: absolute;
     top: 185px;
     margin-left: 140px;
-}
+} */
 #roundrr_container {
     width: 400px;
     height: 460px;
@@ -470,7 +470,7 @@ div.electronic_chatWindow {
     text-indent: 20px;
     background: url('/img/mag-glass.png');
     background-repeat: no-repeat;
-    background-position: 1% 20%; 
+    background-position: 1% 20%;
 }
 
 .electronic_chat .chat_users .list {
@@ -489,7 +489,7 @@ div.electronic_chatWindow {
 }
 
 .electronic_chat .chat_users .item.active {
-    border: 1px #abc solid; 
+    border: 1px #abc solid;
     background: #e3e3e3;
 }
 
@@ -569,7 +569,7 @@ div.electronic_chatWindow {
     display: block;
 }
 
-.electronic_chat .chat_window div.chat_msg ul li.chat_msg_text span.msg {  
+.electronic_chat .chat_window div.chat_msg ul li.chat_msg_text span.msg {
 
     display: block;
     margin-top: 2px;
@@ -577,11 +577,11 @@ div.electronic_chatWindow {
 }
 
 .electronic_chat .chat_window div.chat_msg ul li.chat_msg_text span.right {
-    float: right; 
+    float: right;
 }
 
 .electronic_chat .chat_window div.chat_msg ul li.chat_msg_text span.left {
-    float: left; 
+    float: left;
 }
 
 /* eWeb Search */
@@ -619,7 +619,7 @@ div.electronic_websearchWindow div.ews-searchbox button {
     height: 33px;
     margin: 0 0 0 0;
     font-size: small;
-    padding: 0; 
+    padding: 0;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     width: 80px;
 }

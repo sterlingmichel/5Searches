@@ -1,0 +1,46 @@
+ul.coverflow {
+    border: 0px red solid;
+    display: inline-block;
+    height: 12em;
+    list-style: outside none none;
+    margin-top: 90px;
+    margin-left: -60px;
+    padding: 42px;
+    position: absolute;
+    top: -20px;
+    width: 264em;
+}
+ul.coverflow li.site {
+    background-color: #fff;
+    border: 1px #ddd solid;
+    cursor: pointer;
+    float: left;
+    margin-left: -100px;
+    margin-top: -20px;
+    position: relative;
+    text-align: center;
+    height: 28em;
+    width: 26em;
+}
+ul.coverflow li.roundabout-in-focus {
+    cursor: default;
+}
+
+ul.roundabout-holder {
+    border: 0px #040404 solid;
+    display: inline-block;
+    height: 610px;
+    width: 1496px;
+    list-style: outside none none;
+    margin: 0;
+    top: 12px;
+    margin-left: -210px;
+}
+li.roundabout-moveable-item {
+    background-color: #fff;
+    border: 0px solid red;
+    cursor: pointer;
+    height: 41em;
+    width: 41em;
+    text-align: center;
+}

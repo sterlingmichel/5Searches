@@ -10,14 +10,14 @@
       $stateProvider
               .state('home', {
                 url: '/home',
-                templateUrl: 'home.ng.html',
+                templateUrl: 'client/html/views/home.ng.html',
                 //template: UiRouter.template('home.ng.html'),
                 controller: 'HomeCtrl'
               })
               .state('login', {
                 url: '/login',
                 abstract: false,
-                templateUrl: 'login.ng.html',
+                templateUrl: 'client/html/views/login.ng.html',
                 controller: 'LoginCtrl'
               });
 
