@@ -1,2 +1,2 @@
 # 5Searches
-authror: Sterling Michel
+author: Sterling Michel
